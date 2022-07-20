@@ -1,6 +1,6 @@
 FROM node
 
-RUN git clone https://github.com/goerli/netstats-server /netstats-server
+RUN git clone https://github.com/finachain/netstats-server /netstats-server
 WORKDIR /netstats-server
 RUN npm install
 RUN npm install -g grunt-cli
